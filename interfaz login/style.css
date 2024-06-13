@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url(fondo.d.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#login-form h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+#login-box {
+  width: 300px;
+  height: 400px;
+  background-color: #b1b1b16c;
+  border: 3px solid rgb(223, 223, 223);
+  border-radius: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  backdrop-filter: blur(2px);
+}
+
+#login-form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+#login-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #961f1f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login-form a {
+  display: block;
+  margin-top: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#login-form .bxs-user {
+  position: absolute;
+  right: 25px;
+  top: 28%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+#login-form .bxs-lock-alt {
+  position: absolute;
+  right: 25px;
+  top: 40%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
